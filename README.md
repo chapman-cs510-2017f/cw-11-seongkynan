@@ -1,8 +1,8 @@
 # CS510 CW 11
 
-**Author(s):** **CHANGEME**
+**Author(s):** **Seong and Kynan**
 
-[![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-11-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-11-YOURNAME)
+[![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-11-seongkynan.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-11-seongkynan)
 
 ## Specification
 
@@ -30,7 +30,8 @@ Complete the following exercises, saving your solutions in the indicated files.
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**CHANGEME**
+1. **It was very helpful to create an multi-demensional array type which is not implemented in C lanaguage. The concept of a pointer is critically important in our practice of a row-major ordering, because matrix array data sit linearly and sequentially in a memory storage.**
+2. **It was helpful to learn linked data structure in the practice of stack. Particularly, managing stack elements recursively using a pointer head in a struct shows how C language can be expanded to a more complex tool.**
 
 ## Honor Pledge
 
@@ -41,4 +42,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+**Seong and Kynan**

@@ -11,20 +11,21 @@ int main(void) {
   print_matrix(&a);
 
   puts("Modified matrix:");
-  mset(&a, 1, 1, 30.0);
-  mset(&a, 2, 2, 40.0);
-  mset(&a, 0, 4, 60.0);
-  mset(&a, 2, 5, 80.0);
-  mset(&a, 3, 3, 30.0);
+  mset(&a, 0, 0, 10.0);
+  mset(&a, 1, 1, 20.0);
+  mset(&a, 2, 2, 30.0);
+  mset(&a, 2, 3, 40.0);
+  mset(&a, 1, 4, 50.0);
+  mset(&a, 0, 5, 60.0);
     
    
   print_matrix(&a);
 
-  puts("Element a(2,2):");
-  print_value(mget(&a, 2, 2));
+  puts("Element a(0,0):");
+  print_value(mget(&a, 0, 0));
   puts("");
-  puts("Element a(0,4):");
-  print_value(mget(&a, 0, 4));
+  puts("Element a(1,1):");
+  print_value(mget(&a, 1, 1));
   puts("");
 
   puts("Adding a to itself:");
